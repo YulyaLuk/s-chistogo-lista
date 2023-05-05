@@ -1,0 +1,72 @@
+body {
+    background-color: #1e1e1e;
+    font-family: "Inter Regular", "Open Sans", sans-serif;;
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+}
+
+header {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 20px;
+}
+
+.content-section, header, footer {
+    width: 360px;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: #000000;
+    color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+
+}
+
+.cover {
+    padding-top: 7px;
+    padding-left: 20px;
+}
+
+.intro {
+    padding: 30px 20px;
+}
+
+.reasons {
+    padding: 40px 20px;
+}
+
+.how-to {
+    padding: 40px 20px 60px 20px;
+}
+
+.header__logo {
+    
+}
+
+.header__logo-image {
+    width: 78.45px;
+    height: 15.43px;
+}
+
+.header__menu-list {
+    list-style: none;    
+    
+}
+
+.header__menu-link {
+    color: #F5F5F5;
+}
+
+.header__menu-item_active > .header__menu-link {
+    text-decoration: none;
+}

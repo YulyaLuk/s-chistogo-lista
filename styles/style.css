@@ -125,6 +125,7 @@ footer {
 }
 
 .intro__main-text {
+    padding-top: 4px;
     font-family: Inter Regular;
     font-style: normal;
     font-weight: 400;

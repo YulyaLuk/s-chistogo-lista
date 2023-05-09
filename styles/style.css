@@ -15,6 +15,9 @@ header {
 
 footer {
     padding: 20px;
+    border-top: 1px solid #FEE42A;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -230,7 +233,7 @@ footer {
 
 .card__title{
     padding-bottom: 8px;
-    font-family: 'EB Garamond Regular';
+    font-family: 'EB Garamond Medium';
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -243,3 +246,20 @@ footer {
     color: #F5F5F5;
 }
 
+.content-section_theme_dark {
+    padding: 20px;
+      
+}
+
+.footer__links {
+    list-style: none;
+    display: flex;
+}
+
+.footer__links > li {
+    margin-right: 16px;
+}
+
+.footer__links > li:last-child {
+    margin-right: 0;
+}

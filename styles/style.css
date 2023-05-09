@@ -18,7 +18,6 @@ footer {
     justify-content: space-between;
 }
 
-
 .content-section, header, footer {
     width: 360px;
     box-sizing: border-box;
@@ -28,13 +27,11 @@ footer {
 .content-section_theme_dark {
     background-color: #000000;
     color: #F5F5F5;
-    
 }
 
 .content-section_theme_bright {
     background-color: #FEE42A;
     color: #131313;
-
 }
 
 .cover {
@@ -69,8 +66,7 @@ footer {
 }
 
 .header__menu-list {
-    
-    list-style: none;   
+    list-style: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -81,14 +77,12 @@ footer {
     flex: none;
     order: 1;
     flex-grow: 0;
-
 }
 
 .header__menu-link {
     color: #F5F5F5;
     width: 64px;
     height: 20px;
-
 }
 
 .header__menu-item_active > .header__menu-link {
@@ -100,7 +94,7 @@ footer {
     font-family: 'EB Garamond Medium';
     font-style: normal;
     font-weight: 400;
-    /*font-size: 72px; */
+    font-size: 72px;
 }
 
 .text-center {
@@ -111,7 +105,6 @@ footer {
 .text-right {
     text-align: right;
     margin-right: 24px;
-
 }
 
 .intro__heading {
@@ -124,8 +117,7 @@ footer {
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    color: #CCCCCC;
-    
+    color: #CCCCCC; 
 }
 
 .intro__date {
@@ -149,7 +141,6 @@ footer {
     font-weight: 500;
     font-size: 28px;
     padding-bottom: 32px;
-
 }
 
 .content-section__introduction {
@@ -179,7 +170,7 @@ footer {
 }
 
 .content-section__list-accent {
-    font-family:"Inter Bold";  
+    font-family:"Inter Bold";
 }
 
 .cards-list {
@@ -202,12 +193,10 @@ footer {
 
 .card_theme_bright .card__title {
     color: #131313;
-
 }
 
 .card_theme_bright .card__text {
     color: #131313;
-
 }
 
 .card__author-photo {

@@ -13,7 +13,6 @@ header {
 }
 
 footer {
-    padding: 20px;
     border-top: 1px solid #FEE42A;
     display: flex;
     justify-content: space-between;
@@ -23,11 +22,13 @@ footer {
 .content-section, header, footer {
     width: 360px;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .content-section_theme_dark {
     background-color: #000000;
     color: #F5F5F5;
+    
 }
 
 .content-section_theme_bright {
@@ -79,13 +80,14 @@ footer {
     flex: none;
     order: 1;
     flex-grow: 0;
-     
+
 }
 
 .header__menu-link {
     color: #F5F5F5;
     width: 64px;
-    height: 20px;    
+    height: 20px;
+
 }
 
 .header__menu-item_active > .header__menu-link {
@@ -239,11 +241,6 @@ footer {
     font-family: "Inter Regular";
     font-size: 16px;
     color: #F5F5F5;
-}
-
-.content-section_theme_dark {
-    padding: 20px;
-      
 }
 
 .footer__links {

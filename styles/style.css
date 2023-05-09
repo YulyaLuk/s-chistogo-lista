@@ -1,7 +1,6 @@
 body {
     background-color: #1e1e1e;
-    /* почему тут стоит такой шрифт? откуда мы это взяли?) */
-    font-family: "Inter Regular", "Open Sans", sans-serif;;
+    font-family: "Inter Regular", "Open Sans", sans-serif;
     font-weight: 400;
     display: grid;
     justify-content: center;
@@ -63,10 +62,6 @@ footer {
     padding: 40px 20px 60px 20px;
 }
 
-.header__logo {
-    
-}
-
 .header__logo-image {
     width: 78.45px;
     height: 15.43px;
@@ -84,7 +79,6 @@ footer {
     flex: none;
     order: 1;
     flex-grow: 0; 
-    
 }
 
 .header__menu-link {

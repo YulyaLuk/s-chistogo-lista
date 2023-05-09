@@ -169,6 +169,10 @@ footer {
     color: #131313;
 }
 
+.content-section__list-item:last-child {
+    padding-bottom: 0;
+}
+
 .content-section__list-accent {
     font-family:"Inter Bold";
 }

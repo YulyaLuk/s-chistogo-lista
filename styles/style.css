@@ -7,21 +7,28 @@ body {
 }
 
 header {
-    padding: 24px 20px;
+    /*padding: 24px 20px;*/
     display: flex;
     justify-content: space-between;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 footer {
     border-top: 1px solid #FEE42A;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .content-section, header, footer {
     width: 360px;
     box-sizing: border-box;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .content-section_theme_dark {
@@ -35,8 +42,9 @@ footer {
 }
 
 .cover {
-    padding-top: 7px;
+    /*padding-top: 7px;*/
     padding-left: 20px;
+    padding-bottom: 30px;
     background-image: url("../images/cover.svg");
     background-size: 95% auto;
     background-repeat: no-repeat;
@@ -49,7 +57,7 @@ footer {
     font-size: 72px;
 }
 
-.intro {
+/*.intro {
     padding: 0px 20px 20px 20px;
 }
 
@@ -59,7 +67,7 @@ footer {
 
 .how-to {
     padding: 40px 20px 60px 20px;
-}
+}*/
 
 .header__logo-image {
     width: 78.45px;
@@ -110,8 +118,8 @@ footer {
     display: flex;
     width: 320px;
     height: 38px;
-    padding-top: 6px;
-    padding-bottom: 20px;
+    /*padding-top: 6px;*/
+    padding-bottom: 24px;
     font-family: Inter Regular;
     font-style: normal;
     font-weight: 400;
@@ -137,14 +145,19 @@ footer {
     padding-bottom: 24px;
 }
 
+.intro__main-text > p:last-child {
+    padding-bottom: 38px;
+}
+
 .content-section__subtitle {
     font-weight: 500;
     font-size: 28px;
     padding-bottom: 32px;
+    padding-top: 40px;
 }
 
 .content-section__introduction {
-    padding-top: 32px;
+    /*padding-top: 32px;*/
     padding-bottom: 32px;
     width: 320px;
     height: 297px;
@@ -158,6 +171,7 @@ footer {
 
 .content-section__list {
     padding-top: 32px;
+    padding-bottom: 39px;
     padding-left: 20px;
     font-size: 16px;
 }
@@ -179,6 +193,7 @@ footer {
 
 .cards-list {
     list-style: none;
+    padding-bottom: 60px;
 }
 
 .card {
@@ -223,7 +238,7 @@ footer {
 }
 
 .card__title {
-    padding-bottom: 8px;
+    /*padding-bottom: 8px;*/
     font-family: 'EB Garamond Medium';
     font-style: normal;
     font-weight: 500;

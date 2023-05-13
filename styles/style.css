@@ -132,7 +132,7 @@ footer {
 }
 
 .intro__main-text > p:last-child {
-    padding-bottom: 28px;
+    padding-bottom: 38px;
 }
 
 .content-section__subtitle {
@@ -159,7 +159,7 @@ footer {
 
 .content-section__list {
     padding-top: 32px;
-    padding-bottom: 39px;
+    padding-bottom: 29px;
     padding-left: 20px;
     font-size: 16px;
 }

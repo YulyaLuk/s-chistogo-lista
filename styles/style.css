@@ -60,8 +60,8 @@ footer {
 }
 
 .header__logo-image {
-    width: 78.45px;
-    height: 15.43px;
+    width: 79px;
+    height: 15px;
 }
 
 .header__menu-list {
@@ -104,7 +104,7 @@ footer {
     text-align: right;
 }
 
-.intro__heading {
+.intro__title {
     display: flex;
     padding-bottom: 22px;
     font-family: "Inter";
@@ -149,7 +149,6 @@ footer {
 .content-section__introduction {
     padding-bottom: 32px;
     width: 320px;
-    height: 297px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -220,7 +219,6 @@ footer {
     margin-top: 8px;
     margin-bottom: 8px;
     width: 163px;
-    height: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -245,6 +243,7 @@ footer {
 
 .footer__links {
     list-style: none;
+    color: #F5F5F5;
     display: flex;
 }
 
@@ -254,4 +253,9 @@ footer {
 
 .footer__links > li:last-child {
     margin-right: 0;
+}
+
+.footer__link {
+    color: #F5F5F5;
+    text-decoration: none;
 }

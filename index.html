@@ -10,14 +10,14 @@
     <title>С чистого листа</title>
 </head>
 <body>
-    <header class="content-section_theme_dark">
-        <a class="header__logo">
+    <header class="header content-section_theme_dark">
+        <a class="header__logo" href="#0">
             <img src="./images/logo.svg" class="header__logo-image" alt="logo">
         </a>
         <nav class="header__menu">
             <ul class="header__menu-list">
                 <li class="header__menu-item header__menu-item_active">
-                    <a class="header__menu-link" href="">Главная</a>
+                    <a class="header__menu-link" href="#0">Главная</a>
                 </li>
                 <li class="header__menu-item">
                     <a class="header__menu-link" href="">О нас</a>
@@ -45,7 +45,7 @@
 
         <section class="content-section content-section_theme_dark intro">
             <div class="intro__heading">
-                <span class="intro__title">8 способов борьбы со страхом чистого листа
+                <h2 class="intro__title">8 способов борьбы со страхом чистого листа
                 </span>
                 <time datetime="2022-06-05" class="intro__date">05.06.2022 г.                    
                 </time>
@@ -61,8 +61,8 @@
                 <span class="accent-span text-right">Почему чистый лист</span>
                 <span class="accent-span">— такой cтрашный?</span>
             </h2>
-            <span class="content-section__introduction">Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма работы, которую предстоит сделать. Усилия, той точки, которую нужно преодолеть, чтобы переключить мозг из состояния паники в состояние потока. Причин, почему первые усилия даются так сложно, может быть очень много. Вот основные:
-            </span>
+            <p class="content-section__introduction">Сам по себе чистый лист, конечно, не страшный. Боимся мы чаще всего объёма работы, которую предстоит сделать. Усилия, той точки, которую нужно преодолеть, чтобы переключить мозг из состояния паники в состояние потока. Причин, почему первые усилия даются так сложно, может быть очень много. Вот основные:
+            </p>
             <ul class="content-section__list">
                 <li class="content-section__list-item">
                     <span class="content-section__list-accent">Неуверенность в результате.
@@ -96,13 +96,13 @@
                 <span class="accent-span text-right">Как всё-таки начать </span>
                 <span class="accent-span">что-то делать</span>
             </h2>
-            <span class="content-section__introduction">Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких факторов. Вот что может помочь:
-            </span>
+            <p class="content-section__introduction">Чаще всего страх чистого листа появляется не из-за чего-то одного, а из-за совокупности нескольких факторов. Вот что может помочь:
+            </p>
             <ul class="cards-list">
                 <li>
                     <article class="card card_theme_dark"> 
                         <div class="card__author">
-                            <div class="card__author-photo" style="background-image:url('./images/polyarinov.png')"></div>
+                            <img class="card__author-photo" src="/images/polyarinov.png" alt="Поляринов"></div>
                             <div class="card__author-name">Алексей Поляринов</div>
                         </div>
                         <div class="card__content">
@@ -122,7 +122,7 @@
                 <li>
                     <article class="card card_theme_dark"> 
                         <div class="card__author">
-                            <div class="card__author-photo" style="background-image:url('./images/bunin.png')"></div>
+                            <img class="card__author-photo" src="/images/bunin.png" alt="Бунин"></div>
                             <div class="card__author-name">Иван Бунин</div>
                         </div>
                         <div class="card__content">
@@ -134,12 +134,16 @@
             </ul>
         </section>
     </main>
-    <footer class="content-section_theme_dark">
-        <div class="footer__copy">© VЁRSTKA           
-        </div>
+    <footer class="footer content-section_theme_dark">
+        <p class="footer__copy">© VЁRSTKA           
+        </p>
         <ul class="footer__links">
-            <li>ВК</li>
-            <li>Ютуб</li>
+            <li class="footer__item">
+                <a class="footer__link" href="https://vk.com">ВК</a>
+            </li>
+            <li>
+                <a class="footer__link" href="https://youtube.com">Ютуб</a>
+            </li>
         </ul>
     </footer>
 </body>

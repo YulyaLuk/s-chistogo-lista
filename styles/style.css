@@ -128,7 +128,7 @@ footer {
 }
 
 .intro__main-text > p:first-child {
-    padding-bottom: 16px;
+    padding-bottom: -11px;
 }
 
 .intro__main-text > p:last-child {

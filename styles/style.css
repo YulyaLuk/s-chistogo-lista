@@ -1,7 +1,7 @@
 body {
     background-color: #1e1e1e;
-    font-family: "Inter Regular", "Open Sans", sans-serif;
-    font-weight: 400;
+    font-family: "Inter", "Open Sans", sans-serif;
+    font-weight: 700;
     display: grid;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding-top:20px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -56,18 +56,6 @@ footer {
 .cover__title {
     font-size: 72px;
 }
-
-/*.intro {
-    padding: 0px 20px 20px 20px;
-}
-
-.reasons {
-    padding: 40px 20px;
-}
-
-.how-to {
-    padding: 40px 20px 60px 20px;
-}*/
 
 .header__logo-image {
     width: 78.45px;
@@ -120,9 +108,9 @@ footer {
     height: 38px;
     /*padding-top: 6px;*/
     padding-bottom: 24px;
-    font-family: Inter Regular;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     color: #CCCCCC;
 }
@@ -132,11 +120,12 @@ footer {
 }
 
 .intro__main-text {
-    font-family: Inter Regular;
+    font-family: "Inter";
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     color: #F5F5F5;
+    line-height: 22px;
 }
 
 .intro__main-text > p:first-child {
@@ -159,9 +148,9 @@ footer {
     padding-bottom: 32px;
     width: 320px;
     height: 297px;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 20px;
     color: #131313;
 }
@@ -175,9 +164,11 @@ footer {
 
 .content-section__list-item {
     padding-bottom: 16px;
-    font-family: 'Inter Regular';
+    font-family: 'Inter';
+    font-weight: 700;
     font-style: normal;
     color: #131313;
+    line-height: 22px;
 }
 
 .content-section__list-item:last-child {
@@ -185,7 +176,7 @@ footer {
 }
 
 .content-section__list-accent {
-    font-family:"Inter Bold";
+    font-family:"Inter";
 }
 
 .cards-list {
@@ -227,7 +218,7 @@ footer {
     margin-bottom: 8px;
     width: 163px;
     height: 20px;
-    font-family: 'Inter Bold';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -243,8 +234,9 @@ footer {
 }
 
 .card__text {
-    font-family: "Inter Regular";
+    font-family: "Inter";
     font-size: 16px;
+    font-weight: 700;
     color: #F5F5F5;
 }
 

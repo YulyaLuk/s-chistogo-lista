@@ -15,7 +15,7 @@
 }
 
 @font-face {
-    font-family:"Inter Bold";
+    font-family:"Inter";
     src:url("interbold.woff") format("woff"),
         url("interbold.woff2") format("woff2"),
         url("interbold.ttf") format("truetype");
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-    font-family: "Inter Regular";
+    font-family: "Inter";
     src:url("interregular.woff") format("woff"),
         url("interregular.woff2") format("woff2"),
         url("interregular.ttf") format("truetype");

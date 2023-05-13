@@ -104,18 +104,27 @@ footer {
     text-align: right;
 }
 
-.intro__title {
+.intro__heading {
     display: flex;
-    padding-bottom: 22px;
+    color: #CCCCCC;
+}
+
+.intro__title {
+    padding-bottom: 24px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    color: #CCCCCC;
+    
 }
 
 .intro__date {
     white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
 }
 
 .intro__main-text {
@@ -125,15 +134,16 @@ footer {
     font-size: 16px;
     color: #F5F5F5;
     line-height: 22px;
+    padding-bottom: 38px;
 }
 
 .intro__main-text > p:first-child {
-    padding-bottom: -11px;
+    padding-bottom: 24px;
 }
 
-.intro__main-text > p:last-child {
+/* .intro__main-text > p:last-child {
     padding-bottom: 38px;
-}
+} */
 
 .content-section__subtitle {
     font-family: 'EB Garamond';
@@ -147,7 +157,6 @@ footer {
 }
 
 .content-section__introduction {
-    padding-bottom: 32px;
     width: 320px;
     font-family: 'Inter';
     font-style: normal;
@@ -157,8 +166,7 @@ footer {
 }
 
 .content-section__list {
-    padding-top: 32px;
-    padding-bottom: 29px;
+    padding-bottom: 39px;
     padding-left: 20px;
     font-size: 16px;
 }
@@ -170,6 +178,7 @@ footer {
     font-style: normal;
     color: #131313;
     line-height: 22px;
+    list-style-position: outside;
 }
 
 .content-section__list-item:last-child {
@@ -232,6 +241,7 @@ footer {
     font-weight: 500;
     font-size: 22px;
     color: #F5F5F5;
+    padding-bottom: 8px;
 }
 
 .card__text {

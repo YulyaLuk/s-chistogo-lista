@@ -1,0 +1,273 @@
+body {
+    background-color: #1e1e1e;
+    font-family: "Inter", "Open Sans", sans-serif;
+    font-weight: 400;
+    display: grid;
+    justify-content: center;
+}
+
+header {
+    /*padding: 24px 20px;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top:24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    border-top: 1px solid #FEE42A;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.content-section, header, footer {
+    width: 360px;
+    /* box-sizing: border-box; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content-section_theme_dark {
+    background-color: #131313;
+    color: #F5F5F5;
+}
+
+.content-section_theme_dark > .content-section__introduction {
+    color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+.cover {
+    padding: 7px 24px 30px 20px;
+    background-image: url("../images/cover.svg");
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+    background-position-x: 17px;
+    background-position-y: 27px;
+    min-height: 221px;
+}
+
+.cover__title {
+    font-size: 72px;
+}
+
+.header__logo-image {
+    width: 79px;
+    height: 15px;
+}
+
+.header__menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 75px;
+    height: 84px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header__menu-link {
+    color: #F5F5F5;
+    width: 64px;
+    height: 20px;
+}
+
+.header__menu-item_active > .header__menu-link {
+    text-decoration: none;
+}
+
+.accent-span {
+    display: block;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro__heading {
+    display: flex;
+    color: #CCCCCC;
+}
+
+.intro__title {
+    padding-bottom: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.intro__date {
+    white-space: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.intro__main-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F5F5F5;
+    line-height: 22px;
+    padding-bottom: 38px;
+}
+
+.intro__main-text > p:first-child {
+    padding-bottom: 24px;
+}
+
+/* .intro__main-text > p:last-child {
+    padding-bottom: 38px;
+} */
+
+.content-section__subtitle {
+    font-family: 'EB Garamond';
+    font-size: 28px;
+    padding-bottom: 32px;
+    padding-top: 40px;
+}
+
+.content-section__subtitle > .accent-span {
+    font-weight: 500;
+}
+
+.content-section__introduction {
+    width: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313;
+}
+
+.content-section__list {
+    padding-bottom: 39px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.content-section__list-item {
+    padding-top: 24px;
+    /* padding-bottom: 16px; */
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    color: #131313;
+    line-height: 22px;
+    list-style-position: outside;
+}
+
+.content-section__list-item:last-child {
+    padding-bottom: 0;
+}
+
+.content-section__list-accent {
+    font-family:"Inter";
+    font-weight: 700;
+}
+
+.cards-list {
+    list-style: none;
+    padding-bottom: 60px;
+}
+
+.card {
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.card_theme_dark {
+    background-color: #343434;
+}
+
+.card_theme_bright {
+    background-color: #FEE42A;
+}
+
+.card_theme_bright .card__title {
+    color: #131313;
+}
+
+.card_theme_bright .card__text {
+    color: #131313;
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-size: 100%;
+
+}
+
+.card__author-name {
+    /* margin-top: 8px;
+    margin-bottom: 8px;
+    width: 163px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    padding-bottom: 8px;
+}
+
+.card__title {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #F5F5F5;
+    padding-bottom: 8px;
+}
+
+.card__text {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+
+.footer__links {
+    list-style: none;
+    color: #F5F5F5;
+    display: flex;
+}
+
+.footer__links > li {
+    margin-right: 16px;
+}
+
+.footer__links > li:last-child {
+    margin-right: 0;
+}
+
+.footer__link {
+    color: #F5F5F5;
+    text-decoration: none;
+}
